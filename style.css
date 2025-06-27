@@ -1,14 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    text-align: center;
-    margin: 0;
-    padding: 50px;
+    margin:0;
 }
-.container {
-    background: white;
-    padding: 30px;
+header{
+    color:#ffffff;
+    background-color:#004080;
+    padding:5px 15px;
+}
+.header-image{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+    height:50px;
+}
+nav a {
+   margin:5px;
+    color:white;
+    text-decoration:none;
+    
+}
+nav a[href="QURAAN.HTML"],
+nav a[href="BOOKS.HTML"]{
+    border: 2px solid white;
+    padding: 4px 10px;
     border-radius: 10px;
-    display: inline-block;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position:relative ;
+    top:-5px;
+    left:-18px;
 }
