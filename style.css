@@ -6,13 +6,6 @@ header{
     background-color:#004080;
     padding:5px 15px;
 }
-.header-image{
-    position:absolute;
-    right:20px;
-    top:50%;
-    transform:translateY(-50%);
-    height:50px;
-}
 nav a {
    margin:5px;
     color:white;
