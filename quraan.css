@@ -1,0 +1,33 @@
+body {
+    
+}
+header{
+    padding:5px 5px;
+    color:#ffffff;
+    background-color:#004080;
+}
+h1{
+    display:inline-block;
+    position:relative ;
+    left:115px;
+    border:3px solid white;
+    border-radius:17px;
+}
+header a[href="index.html"]{
+    position:relative;
+    left:-112px;
+    border:2px solid white;
+    border-radius:17px;
+    text-decoration:none;
+    color:#ffffff;
+    padding:4px 4px;
+}
+header a[href="BOOKS.HTML"]{
+    position:relative;
+    left:-2px;
+    border:2px solid white;
+    border-radius:17px;
+    text-decoration:none;
+    color:#ffffff;
+    padding:4px 4px;
+}
